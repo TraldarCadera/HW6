@@ -4,7 +4,7 @@ public class Dog extends Animal {
     public Dog(String name, String color, int age) {
         super(name, color, age);
     }
-
+// Переписываем абстрактные методы
     @Override
     public void swim(int swim) {
         if (swim > 10) {

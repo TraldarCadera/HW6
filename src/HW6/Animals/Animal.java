@@ -11,6 +11,7 @@ abstract class Animal {
         this.age = age;
     }
 
+    // Назначаем абстрактные методы
     abstract void run(int run);
 
     abstract void swim(int swim);

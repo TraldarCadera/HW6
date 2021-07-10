@@ -6,6 +6,7 @@ public class Cat extends Animal{
         super(name, color, age);
     }
 
+    // переписываем
     @Override
     public void swim(int swim) {
         System.out.println("Коты не любят плавать!");
